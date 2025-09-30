@@ -260,3 +260,12 @@ nav ul li{
     height: 57px;
   ;    background:  lightgray
 }
+.link-arrow{
+    width: 60px;
+    height: 14px;
+    flex-shrink: 0;
+    fill:  #2B2C34;
+    stroke-width: 0.3px;
+    stroke: #2B2C34;
+    background: black;
+}
