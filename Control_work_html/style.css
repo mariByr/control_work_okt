@@ -354,3 +354,29 @@ nav ul li{
     line-height: normal;
     text-transform: capitalize;
 }
+/*#java-script{*/
+/*    display: flex;*/
+/*    width: 1250px;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    gap: 30px;*/
+.more-article{
+    width: 165px;
+    height: 64px;
+    margin: 0 auto;
+    color: #FFFFFE;
+    border-radius: 8px;
+    background: #6246EA;
+    display: flex;
+    flex-direction: row;
+    /*padding: 10px*/
+;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+.more-article p{ font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
