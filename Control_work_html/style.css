@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/*body {*/
+/*    width: 1440px;*/
+/*}*/
 *{
     margin:0;
     padding:0;
@@ -277,6 +280,7 @@ nav ul li{
     height: 425px;
     display: flex;
     flex-direction: row;
+    gap: 16px;
 
 }
 .post-card{
