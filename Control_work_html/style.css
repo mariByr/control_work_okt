@@ -192,7 +192,7 @@ nav ul li{
     align-items: center;
     gap: 37px;
 }
-.card{
+.category-card{
     width: 220px;
     height: 280px;
     border-radius: 8px;
@@ -209,9 +209,10 @@ nav ul li{
     padding-top: 65px;
 
 }
-.active{
+.category-card:hover{
     border-radius: 8px;
     background: #6246EA;
+    transition: 0.3s ease;
 }
 .h3-browse{
     height: 30px;
@@ -302,6 +303,10 @@ nav ul li{
 .gap-30{
     gap: 30px;
 }
+.post-card:hover{
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+   }
 .img-post{
     width: 260px;
     height: 198px;
