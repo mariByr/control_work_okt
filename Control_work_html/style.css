@@ -224,6 +224,22 @@ nav ul li{
     line-height: normal;
     text-transform: capitalize;
 }
+.logos-tailwind{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 7.458px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.log-tailwind{*/
+/*    width: 40px;*/
+/*    height: 24px;*/
+/*    flex-shrink: 0;*/
+/*    margin: 0 auto;*/
+/*}*/
 .article-w1250{
     width: 1250px;
     margin: 0 auto;
