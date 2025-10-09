@@ -63,6 +63,10 @@ nav ul li{
     align-items: center;
     gap: 10px;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .menu-link{
     display: flex;
     flex-direction: row;
@@ -133,7 +137,7 @@ nav ul li{
     height: 67px;
     gap: 20px;
 }
-.button-forms input:nth-child(1){
+#subscribe-input{
 
     padding: 21px 200px 21px 25px;
 
@@ -147,7 +151,7 @@ nav ul li{
     font-weight: 400;
     line-height: normal;
 }
-.button-forms input:nth-child(2){
+#subscribe-button{
     width: 145px;
     height: 67px;
     padding: 20px 23px 19px 23px;
@@ -163,7 +167,7 @@ nav ul li{
 }
 #choose_category{
     height: 500px;
-    background: #EFF0F3;
+        background: #EFF0F3;
 }
 .choose-w1250{
     width: 1250px;
@@ -246,7 +250,8 @@ nav ul li{
     display: flex;
     flex-direction: column;
     gap: 80px;
-    background: #FFFFFE;;
+    background: #FFFFFE;
+    padding: 80px 0;
 }
 .featured-article{
     display: flex;
@@ -400,4 +405,58 @@ nav ul li{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+}
+.subscribe-section{
+    width: 100%;
+    display: flex;
+    padding: 58px 372px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background:  #EFF0F3;
+}
+.subscribe-section-wrapper{
+    width: 696px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.circle{
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mailbox{
+    width: 80.066px;
+    height: 106.755px;
+    flex-shrink: 0;
+}
+.subscribe-title{
+    color: #2B2C34;
+       font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.textForSubscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textForSubscribe p{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

@@ -41,8 +41,8 @@
                 <h3>On this blog I share tips and tricks, frameworks, projects, tutorials, etc
                     Make sure you subscribe to get the latest updates</h3>
                 <form class="button-forms">
-                    <input type="email" name="user_email" placeholder="Enter your email here...." required>
-                    <button type="submit" class="subscribe">Subscribe</button>
+                    <input id="subscribe-input" type="email" name="user_email" placeholder="Enter your email here...." required>
+                    <button id="subscribe-button"  type="submit" class="subscribe">Subscribe</button>
                 </form>
             </div>
             <img class="learning" src="img/learn-coding%20.png" alt="learning">
@@ -59,8 +59,8 @@
                           fill="#2B2C34" stroke="#2B2C34" stroke-width="0.3"/>
                 </svg>
                     </a>
-            </div>// div with card
-            <div class="category ">
+            </div>
+            <div class="category">
                 <div class="category-card">
                     <div class="logos-tailwind">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33" height="37" viewBox="0 0 33 37" fill="none">
@@ -85,7 +85,7 @@
                     </div>
                     <h3 class="h3-browse">javascript</h3>
                 </div>
-                <div class="category-card third ">
+                <div class="category-card">
                     <div class="logos-tailwind">
                         <svg class="log-tailwind" xmlns="http://www.w3.org/2000/svg" width="40" height="24" viewBox="0 0 40 24" fill="none">
                             <g clip-path="url(#clip0_16212_245)">
@@ -152,7 +152,7 @@
                             <article class="post-card gap-80">
                                 <div class="description">
                                     <img class="img-post" src="img/section3/fundamental-js.png" alt="fundamental of JS">
-                                    <h2 class="name-post">Fundamental of javascript</h2>
+                                    <h2 class="name-post"><a href="#">Fundamental of javascript</a></h2>
                                 </div>
                                 <div class="author-post">
                                     <img class="img-dasteen" src="img/Dasteen80.svg" alt="Dasteen">
@@ -409,9 +409,19 @@
     <!--    4 section-->
     <section class="subscribe-section">
         <div class="subscribe-section-wrapper">
-            <img src="" alt="">
-            <h3></h3>
-            <form action=""></form>
+
+                <div class="circle">
+            <img class="mailbox" src="img/subscribe.png" alt="mailbox icon">
+
+                </div>
+                <div class="textForSubscribe">
+                    <h2 class="subscribe-title">Subscribe For the lastest updates</h2>
+                    <p>Subscribe to newsletter and never miss the new post every week.</p>
+                </div>
+                        <form class="button-forms">
+                <input id="subscribe-input" type="email" name="user_email" placeholder="Enter your email here...." required>
+                <button id="subscribe-button" type="submit" class="subscribe">Subscribe</button>
+            </form>
         </div>
     </section>
 
