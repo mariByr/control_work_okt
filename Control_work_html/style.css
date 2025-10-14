@@ -275,7 +275,7 @@ a.category-card{
     justify-content: flex-start;
     gap: 30px;
 }
-.list-post-cards {
+.wrapper-postcards {
     order: 1;
     width: 100%;
     height: 425px;
