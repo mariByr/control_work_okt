@@ -15,6 +15,9 @@
       /* For White Background */
       box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
       position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
   }
   .header_content_1250{
       width: 1250px;
@@ -79,15 +82,17 @@ a{
     line-height: normal;
     text-transform: capitalize;
 }
-.main{
+main{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding-top: 84px;
 }
 #about_me{
     width: 100%;
     background: #EFF0F3;
     height: 814px;
+    margin-top: 0;
 }
 .hero-w1250{
     width: 1250px;
@@ -112,15 +117,17 @@ a{
     text-transform: capitalize;
 }
 .about_me_content h3{
-    width: 652px;
+    width: 664px;
     color:  #9A9494;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 12px;
 }
 .learning{
     padding-top: 164px;
+   width: 470px;
 }
 .button-forms{
     display: flex;
@@ -158,6 +165,7 @@ a{
 #choose_categories{
     height: 500px;
         background: #EFF0F3;
+    /*scroll-margin-top:86px ;*/
 }
 .choose-w1250{
     width: 1250px;
@@ -179,6 +187,16 @@ a{
     white-space: nowrap;
 
 }
+.header-choose{ order: 0;
+    display: flex;
+    width: 100%;
+    padding: 2px 0 3px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
 .header-section{
     order: 0;
     display: flex;
@@ -187,6 +205,7 @@ a{
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
+    margin-bottom: 30px;
 }
 .see-all{
     display: inline-flex;
@@ -268,7 +287,7 @@ a.category-card{
     width: 1250px;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 30px;
+    /*gap: 30px;*/
 }
 .wrapper-postcards {
     order: 1;
@@ -429,6 +448,8 @@ a.category-card{
 footer{
     height: 435px;
     flex-shrink: 0;
+    background: #E4E5E9;
+
 }
 .footer-wrapper{
     margin: 0 auto;
